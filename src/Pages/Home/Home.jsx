@@ -2,8 +2,9 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div className='text-primary'>
             This is home
+            <p className='text-blue'>this is sissi</p>
         </div>
     );
 };
