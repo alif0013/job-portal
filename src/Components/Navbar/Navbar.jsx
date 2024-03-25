@@ -29,7 +29,7 @@ const Navbar = () => {
                             <li><Link to="/" className="hover:bg-gray-50 px-3 py-2 rounded-md">Job List</Link></li>
                             <li><Link to="/" className="hover:bg-gray-50 px-3 py-2 rounded-md">Salary Estimate</Link></li>
                             <li><Link to="/" className="hover:bg-gray-50 px-3 py-2 rounded-md">Pricing</Link></li>
-                            <li><Link to="/" className="border-gray-200 border-2 hover:bg-white hover:drop-shadow-sm px-3 py-2 rounded-md">Login</Link></li>
+                            <li><Link to="/" className="border-gray-100 border-2 hover:bg-gray-50 hover:drop-shadow-sm px-3 py-2 rounded-md">Login</Link></li>
                             <li><Link to="/" className="bg-blue text-white hover:bg-blue hover:drop-shadow-md px-4 py-2 rounded-md">Sign Up</Link></li>
                         </ul>
                     </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </div>
             </div>
             {/* Mobile menu */}
-            <div className={`${isOpen ? 'translate-x-0' : '-translate-x-full'} fixed top-0 left-0 h-full w-64 bg-gray-100 z-50 overflow-y-auto transition-transform duration-300 ease-in-out`}>
+            <div className={`${isOpen ? 'translate-x-0 backdrop-blur-lg' : '-translate-x-full'} fixed top-0 left-0 h-full w-64 bg-gray-100 z-50 overflow-y-auto transition-transform duration-300 ease-in-out`}>
 
                 <div className='p-5'>
                     <img className='w-12 text-center rounded' src="https://i.ibb.co/n7RFQ6F/colorful-logo-1.jpg" alt="" />
