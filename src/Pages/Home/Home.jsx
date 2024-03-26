@@ -26,13 +26,13 @@ const Home = () => {
 
             <div className='bg-[#FAFAFA]'>
                 <div className='grid grid-cols-1 px-5 md:p-10  md:grid-cols-12 md:max-w-[1200px] md:mx-auto gap-5'>
-                    <div className='bg-white md:col-span-3 p-5 border-2 border-orange-400'>
+                    <div className='bg-white rounded-md md:col-span-3 p-5 border-2 border-orange-400'>
                         <LeftSideFilter></LeftSideFilter>
                     </div>
-                    <div className='bg-white md:col-span-6 p-5  border-2 border-yellow-600'>
+                    <div className='bg-white rounded-md md:col-span-6 p-5  border-2 border-yellow-600'>
                         <MiddleSideCard></MiddleSideCard>
                     </div>
-                    <div className='bg-white  md:col-span-3 p-5 border-2 border-green-400'>
+                    <div className='bg-white rounded-md md:col-span-3 p-5 border-2 border-green-400'>
                         <RightSideNotify></RightSideNotify>
                     </div>
 
