@@ -20,7 +20,7 @@ const Banner = () => {
         <div>
             <div className="hero min-h-[500px] mb-5">
                 <div  className="hero-content flex-col lg:flex-row-reverse">
-                    <img data-aos="fade-left" src="https://cdni.iconscout.com/illustration/premium/thumb/online-job-search-5015545-4185620.png?f=webp" className="max-w-md rounded-lg" />
+                    <img data-aos="fade-left" src="https://cdni.iconscout.com/illustration/premium/thumb/online-job-search-5015545-4185620.png?f=webp" className="max-w-[350px] md:max-w-md rounded-lg" />
                   
                     <div data-aos="fade-right">
                         <h1 className="text-5xl font-bold">Find Your <span className='text-blue'>New Job</span> Today </h1>
