@@ -78,7 +78,69 @@ const LeftSideFilter = () => {
                 </div>
             </div>
 
-            
+             {/* Date of posting */}
+             <div>
+                <h1 className='text-2xl pb-2 font-semibold'>Date Of Posting</h1>
+
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold'>All Time</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold '>Last 24 hours</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold '>Last 3 days</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold '>Last 7 days</p>
+                </div>
+                
+            </div>
+
+             {/* Work Experience */}
+             <div>
+                <h1 className='text-2xl pb-2 font-semibold'>Work Experience</h1>
+
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold'>Any Experience</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold '>Internship</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <p className='text-black/60 font-semibold '>Work Remotely</p>
+                </div>
+               
+                
+            </div>
+
+             {/* Type Of Employment */}
+             <div>
+                <h1 className='text-2xl pb-2 font-semibold'>Employment Type </h1>
+
+                <div className='flex gap-2 items-center pb-1'>
+                <input type="checkbox" className="checkbox checkbox-xs" /> 
+                    <p className='text-black/60 font-semibold'>Full Time</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                <input type="checkbox" className="checkbox checkbox-xs" /> 
+                    <p className='text-black/60 font-semibold '>Temporary</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                <input type="checkbox" className="checkbox checkbox-xs" /> 
+                    <p className='text-black/60 font-semibold '>Part-Time</p>
+                </div>
+               
+                
+            </div>
+
         </div>
     );
 };
