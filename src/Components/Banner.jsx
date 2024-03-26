@@ -18,7 +18,7 @@ const Banner = () => {
 
         // </div>
         <div>
-            <div className="hero min-h-[500px]">
+            <div className="hero min-h-[500px] mb-5">
                 <div  className="hero-content flex-col lg:flex-row-reverse">
                     <img data-aos="fade-left" src="https://cdni.iconscout.com/illustration/premium/thumb/online-job-search-5015545-4185620.png?f=webp" className="max-w-md rounded-lg" />
                   
