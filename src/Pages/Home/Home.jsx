@@ -18,6 +18,8 @@ const Home = () => {
     return (
         <div className='text-primary'>
             <Banner></Banner>
+
+            {/* next component here  */}
         </div>
     );
 };
