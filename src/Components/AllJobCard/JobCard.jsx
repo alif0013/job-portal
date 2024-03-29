@@ -7,16 +7,18 @@ const JobCard = ({ job }) => {
     const { companyName, jobTitle, companyLogo, minPrice, maxPrice, salaryType, jobLocation, postingDate, experienceLevel, employmentType, description } = job;
     return (
         <div>
-            <div className='flex px-2 py-5 gap-5 bg-white md my-5'>
+            <div className='flex px-2 py-5 gap-5 bg-white  my-5'>
                 <div>
-                    <img className='w-16 rounded-md' src={companyLogo} alt="logo" />
+                    <img className='md:w-28 rounded-md' src={companyLogo} alt="logo" />
                 </div>
+
+
                 <div>
                     <h1 className='font-semibold text-black/70'>{companyName}</h1>
                     <h1 className='font-bold text-xl py-1'>{jobTitle}</h1>
 
                     {/* date time and location */}
-                    <div className='flex gap-3 justify-between'>
+                    <div className='grid grid-cols-2 md:grid-cols-4'>
                         <div className="flex items-center text-black/70 gap-1">
                             <IoLocationOutline />
                             {jobLocation}
@@ -33,7 +35,12 @@ const JobCard = ({ job }) => {
                             <CiCalendarDate />
                             {postingDate}
                         </div>
+                    </div>
+                    
+                    {/* job description */}
 
+                    <div className="mt-2">
+                        <p className="text-[14px] md:text-[15px] text-black/60 md:font-semibold ">{description}</p>
                     </div>
 
 
