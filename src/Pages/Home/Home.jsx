@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import Banner from '../../Components/Banner';
 import LeftSideFilter from '../../Components/LeftSideFilter';
 import MiddleSideCard from '../../Components/MiddleSideCard';
@@ -6,18 +5,10 @@ import RightSideNotify from '../../Components/RightSideNotify';
 
 const Home = () => {
 
-    const [jobs, setJobs] = useState([]);
-
-    useEffect(() => {
-        fetch("jobs.json")
-            .then(res => res.json())
-            .then(data => {
-                setJobs(data);
-            })
-    }, [])
+  
 
 
-    console.log(jobs);
+    // console.log(jobs);
     return (
         <div className=''>
             <div className='px-5'>
