@@ -34,7 +34,7 @@ const MiddleSideCard = () => {
             </div>
 
             {/* all jobs card  */}
-            <div>
+            <div className="drop-shadow-md">
                 {
                     jobs.map(job => <JobCard job={job} key={job.id}></JobCard>)
                 }
