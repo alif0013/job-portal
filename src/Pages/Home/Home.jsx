@@ -22,10 +22,10 @@ const Home = () => {
                     <div className='bg-white w-full rounded-md lg:col-span-3 p-5 drop-shadow-md'>
                         <LeftSideFilter></LeftSideFilter>
                     </div>
-                    <div className='bg-white w-full  rounded-md lg:col-span-6 p-5 drop-shadow-md'>
+                    <div className='w-full  rounded-md lg:col-span-6 p-5 drop-shadow-md'>
                         <MiddleSideCard></MiddleSideCard>
                     </div>
-                    <div className='bg-white w-full  rounded-md lg:col-span-3 p-1 drop-shadow-md'>
+                    <div className='w-full  rounded-md lg:col-span-3  drop-shadow-md'>
                         <RightSideNotify></RightSideNotify>
                         
                     </div>

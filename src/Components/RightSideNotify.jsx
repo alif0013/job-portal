@@ -4,7 +4,7 @@ const RightSideNotify = () => {
     return (
         <div>
             {/* email section */}
-            <div className='bg-orange-50 rounded p-3 drop-shadow-md'>
+            <div className='bg-white rounded p-3 drop-shadow-md'>
                 <div className='flex items-center gap-2'>
                     <img className='w-14' src="https://i.ibb.co/5n87LB7/icons8-email-100.png" alt="img" />
                     <h1 className='text-xl  font-bold'>Email me for job</h1>
@@ -22,7 +22,7 @@ const RightSideNotify = () => {
 
             {/* get notices faste  */}
 
-            <div className='bg-yellow-50 rounded p-3 mt-6 drop-shadow-md'>
+            <div className='bg-white rounded p-3 mt-6 drop-shadow-md'>
                 <div className='flex items-center gap-2'>
                     <img className='w-10' src="https://i.ibb.co/R4TT1hf/icons8-rocket-48.png" alt="img" />
                     <h1 className='text-xl  font-bold'>Get Noticed Faster</h1>
