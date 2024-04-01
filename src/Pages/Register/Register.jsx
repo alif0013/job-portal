@@ -9,13 +9,13 @@ const Register = () => {
 
     return (
         <div>
-            <div className="hero min-h-screen">
+            <div className="hero min-h-screen ">
                 <div className="hero-content flex-col">
                     <div className="text-center lg:text-left">
                         <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold mb-2">Sign Up Now!</h1>
 
                     </div>
-                    <div className="card flex-shrink-0 w-full">
+                    <div className="card flex-shrink-0 w-full bg-slate-50 drop-shadow-md">
                     {/* onSubmit={handleSubmit(onSubmit)}  */}
                         <form className="card-body">
                             <div className="form-control">
