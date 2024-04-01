@@ -3,10 +3,10 @@ import { LiaAngleRightSolid } from "react-icons/lia";
 
 const LeftSideFilter = () => {
     return (
-        <div>
+        <div className=''>
 
             {/* Location part */}
-            <div>
+            <div className=''>
                 <h1 className='text-2xl pb-2 font-semibold'>Filters</h1>
                 <p className='font-semibold  mb-3'>Location</p>
 
