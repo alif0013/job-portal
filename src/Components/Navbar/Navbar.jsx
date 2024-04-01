@@ -29,8 +29,8 @@ const Navbar = () => {
                             <li><Link to="/" className="hover:bg-gray-50 px-3 py-2 rounded-md">Job List</Link></li>
                             <li><Link to="/" className="hover:bg-gray-50 px-3 py-2 rounded-md">Salary Estimate</Link></li>
                             <li><Link to="/" className="hover:bg-gray-50 px-3 py-2 rounded-md">Pricing</Link></li>
-                            <li><Link to="/" className="border-gray-100 border-2 hover:bg-gray-50 hover:drop-shadow-sm px-3 py-2 rounded-md">Login</Link></li>
-                            <li><Link to="/" className="bg-blue text-white hover:bg-blue hover:drop-shadow-md px-4 py-2 rounded-md">Sign Up</Link></li>
+                            <li><Link to="/login" className="border-gray-100 border-2 hover:bg-gray-50 hover:drop-shadow-sm px-3 py-2 rounded-md">Login</Link></li>
+                            <li><Link to="/register" className="bg-blue text-white hover:bg-blue hover:drop-shadow-md px-4 py-2 rounded-md">Sign Up</Link></li>
                         </ul>
                     </div>
                     <div className="md:hidden">
