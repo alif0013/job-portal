@@ -6,9 +6,6 @@ import RightSideNotify from '../../Components/RightSideNotify';
 const Home = () => {
 
   
-
-
-    // console.log(jobs);
     return (
         <div className=''>
             <div className='px-5'>
