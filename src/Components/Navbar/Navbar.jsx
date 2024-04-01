@@ -59,7 +59,7 @@ const Navbar = () => {
                     <li><Link to="/" className="block hover:bg-purple-200 px-6 py-2"> <h2 className='flex gap-2 items-center hover:text-purple-700 hover:font-semibold'><span><MdAutoGraph className='text-xl' /> </span> Salary Estimate</h2></Link></li>
                     <li><Link to="/" className="block hover:bg-purple-200 px-6 py-2"> <h2 className='flex gap-2 items-center hover:text-purple-700 hover:font-semibold'><span><MdPriceCheck className='text-xl' /> </span> Pricing</h2></Link></li>
 
-                    <li><Link to="/" className="block bg-blue ml-5 mt-2 rounded text-white px-6 py-2 w-28 md:0">Sign Up</Link></li>
+                    <li><Link to="/login" className="block bg-blue ml-5 mt-2 rounded text-white px-6 py-2 w-28 md:0">Log In</Link></li>
                 </ul>
             </div>
         </nav>
