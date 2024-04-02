@@ -8,7 +8,7 @@ const JobCard = ({ job }) => {
 
     return (
         <div>
-            <div className='flex px-2 py-5 gap-5 bg-white  my-5'>
+            <div className='flex px-2 py-5 gap-5 bg-white rounded my-5'>
                 <div>
                     <img className='md:w-28 rounded-md' src={companyLogo} alt="logo" />
                 </div>
@@ -45,7 +45,7 @@ const JobCard = ({ job }) => {
                     {/* job description */}
 
                     <div className="mt-2">
-                        <p className="text-[14px] md:text-[15px] text-black/60 md:font-semibold ">{description}</p>
+                        <p className="text-[14px] md:text-[15px] text-black/60">{description}</p>
                     </div>
 
                 </div>
