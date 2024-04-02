@@ -12,23 +12,23 @@ const LeftSideFilter = () => {
 
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold'>Near Me</p>
+                    <p className='text-black/60 '>Near Me</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>Remote Job</p>
+                    <p className='text-black/60'>Remote Job</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>WithIn 15 km</p>
+                    <p className='text-black/60'>WithIn 15 km</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>WithIn 30 km</p>
+                    <p className='text-black/60'>WithIn 30 km</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>WithIn 50 km</p>
+                    <p className='text-black/60'>WithIn 50 km</p>
                 </div>
             </div>
 
@@ -45,77 +45,77 @@ const LeftSideFilter = () => {
                 {/* salary Inpuut */}
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold'>Any</p>
+                    <p className='text-black/60'>Any</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
                     <span className='text-black/80 font-bold'><LiaAngleRightSolid></LiaAngleRightSolid> </span>
-                    <p className='text-black/60 font-semibold'> 30,000 K</p>
-                </div>
-                <div className='flex gap-2 items-center pb-1'>
-                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <span className='text-black/80 font-bold'><LiaAngleRightSolid></LiaAngleRightSolid> </span>
-
-                    <p className='text-black/60 font-semibold'> 40,000 K</p>
+                    <p className='text-black/60'> 30,000 K</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
                     <span className='text-black/80 font-bold'><LiaAngleRightSolid></LiaAngleRightSolid> </span>
 
-                    <p className='text-black/60 font-semibold'> 50,000 K</p>
+                    <p className='text-black/60'> 40,000 K</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
                     <span className='text-black/80 font-bold'><LiaAngleRightSolid></LiaAngleRightSolid> </span>
 
-                    <p className='text-black/60 font-semibold'> 60,000 K</p>
+                    <p className='text-black/60'> 50,000 K</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
                     <span className='text-black/80 font-bold'><LiaAngleRightSolid></LiaAngleRightSolid> </span>
 
-                    <p className='text-black/60 font-semibold'> 80,000 K</p>
+                    <p className='text-black/60'> 60,000 K</p>
+                </div>
+                <div className='flex gap-2 items-center pb-1'>
+                    <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
+                    <span className='text-black/80 font-bold'><LiaAngleRightSolid></LiaAngleRightSolid> </span>
+
+                    <p className='text-black/60'> 80,000 K</p>
                 </div>
             </div>
 
              {/* Date of posting */}
              <div>
-                <h1 className='text-2xl pb-2 font-semibold'>Date Of Posting</h1>
+                <h1 className='text-2xl  font-semibold pb-2'>Date Of Posting</h1>
 
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold'>All Time</p>
+                    <p className='text-black/60'>All Time</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>Last 24 hours</p>
+                    <p className='text-black/60 '>Last 24 hours</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>Last 3 days</p>
+                    <p className='text-black/60 '>Last 3 days</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>Last 7 days</p>
+                    <p className='text-black/60 '>Last 7 days</p>
                 </div>
                 
             </div>
 
              {/* Work Experience */}
              <div>
-                <h1 className='text-2xl pb-2 font-semibold'>Work Experience</h1>
+                <h1 className='text-2xl font-semibold pb-2'>Work Experience</h1>
 
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold'>Any Experience</p>
+                    <p className='text-black/60'>Any Experience</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>Internship</p>
+                    <p className='text-black/60 '>Internship</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                     <span className='pt-1'><input type="radio" name="radio-1" className="radio h-[15px] w-[15px]" /></span>
-                    <p className='text-black/60 font-semibold '>Work Remotely</p>
+                    <p className='text-black/60 '>Work Remotely</p>
                 </div>
                
                 
@@ -127,15 +127,15 @@ const LeftSideFilter = () => {
 
                 <div className='flex gap-2 items-center pb-1'>
                 <input type="checkbox" className="checkbox checkbox-xs" /> 
-                    <p className='text-black/60 font-semibold'>Full Time</p>
+                    <p className='text-black/60'>Full Time</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                 <input type="checkbox" className="checkbox checkbox-xs" /> 
-                    <p className='text-black/60 font-semibold '>Temporary</p>
+                    <p className='text-black/60 '>Temporary</p>
                 </div>
                 <div className='flex gap-2 items-center pb-1'>
                 <input type="checkbox" className="checkbox checkbox-xs" /> 
-                    <p className='text-black/60 font-semibold '>Part-Time</p>
+                    <p className='text-black/60 '>Part-Time</p>
                 </div>
                
                 
