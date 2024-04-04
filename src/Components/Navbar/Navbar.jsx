@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0">
                         <span className="text-lg font-bold">
-                            <img className="w-20 md:w-24" src="https://i.ibb.co/n7RFQ6F/colorful-logo-1.jpg" alt="" />
+                            <img className="w-24 md:w-32" src="https://jobbox-nextjs-v3.vercel.app/assets/imgs/template/jobhub-logo.svg" alt="" />
                         </span>
                     </div>
                     <div className="hidden md:block">
@@ -46,8 +46,8 @@ const Navbar = () => {
             <div className={`${isOpen ? 'translate-x-0 backdrop-blur-lg' : '-translate-x-full'} fixed top-0 left-0 h-full w-64 bg-gray-100 z-50 overflow-y-auto transition-transform duration-300 ease-in-out`}>
 
                 <div className='p-5'>
-                    <img className='w-12 text-center rounded' src="https://i.ibb.co/n7RFQ6F/colorful-logo-1.jpg" alt="" />
-                    <div className='pt-2'>
+                    <img className='w-20 text-center rounded' src="https://jobbox-nextjs-v3.vercel.app/assets/imgs/template/jobhub-logo.svg" alt="" />
+                    <div className='pt-3'>
                         <h1 className='pb-1 font-semibold'>Md Alif</h1>
                         <p className='text-gray-500 text-[15px]'>mdalifh35@gmail.com</p>
                     </div>
