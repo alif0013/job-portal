@@ -9,7 +9,7 @@ const RightSideNotify = () => {
                     <img className='w-14' src="https://i.ibb.co/5n87LB7/icons8-email-100.png" alt="img" />
                     <h1 className='text-xl  font-bold'>Email me for job</h1>
                 </div>
-                <p className='font-semibold text-black/60 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptates debitis?</p>
+                <p className=' text-black/60 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptates debitis?</p>
 
                 {/* email input */}
                 <label className="input input-bordered flex items-center gap-2 mt-5">
@@ -27,7 +27,7 @@ const RightSideNotify = () => {
                     <img className='w-10' src="https://i.ibb.co/R4TT1hf/icons8-rocket-48.png" alt="img" />
                     <h1 className='text-xl  font-bold'>Get Noticed Faster</h1>
                 </div>
-                <p className='font-semibold text-black/60 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptates debitis?</p>
+                <p className=' text-black/60 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptates debitis?</p>
 
                 <button type='file' className="mt-3 mb-3 bg-blue text-white px-3 py-2 w-full rounded hover:drop-shadow-lg">Uplode Your Resume</button>
             </div>
