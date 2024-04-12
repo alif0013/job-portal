@@ -22,6 +22,7 @@ const Navbar = () => {
                         <span className="text-lg font-bold">
                             <img className="w-24 md:w-32" src="https://jobbox-nextjs-v3.vercel.app/assets/imgs/template/jobhub-logo.svg" alt="" />
                         </span>
+                        
                     </div>
                     <div className="hidden md:block">
                         <ul className="flex space-x-4">
